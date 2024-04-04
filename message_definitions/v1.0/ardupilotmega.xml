@@ -1524,6 +1524,12 @@
       <field type="float" name="cross_track_error" units="m">Deepstall cross track error (only valid when in DEEPSTALL_STAGE_LAND).</field>
       <field type="uint8_t" name="stage" enum="DEEPSTALL_STAGE">Deepstall stage.</field>
     </message>
+    <message id = "199" name = "CUSTOM_POSITION">
+    <description>custom message</description>
+    <field type = "uint8_t" name = "posx" invalid = "0"> x position</field>
+    <field type = "uint8_t" name = "posy" invalid = "0"> y position</field>
+    <field type = "char[20]" name = "str" invalid = "['0']"> custom string</field>
+</message>
     <message id="200" name="GIMBAL_REPORT">
       <description>3 axis gimbal measurements.</description>
       <field type="uint8_t" name="target_system">System ID.</field>
