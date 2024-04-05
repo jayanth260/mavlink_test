@@ -1,3 +1,6 @@
 [submodule "pymavlink"]
 	path = pymavlink
 	url = https://github.com/ardupilot/pymavlink.git
+[submodule "pymavlink_test"]
+	path = pymavlink_test
+	url = https://github.com/jayanth260/pymavlink_test.git
